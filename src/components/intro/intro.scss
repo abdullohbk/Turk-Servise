@@ -1,10 +1,18 @@
 #intro {
+  width: 100%;
+  padding-top: 115px;
+  background-image: url("../../assets/images/Rectangle\ 12.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  //  padding-bottom: 64px;
+
   padding-bottom: 50px;
   .container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 50px 10px;
-    background-image: url("../../assets/images/Rectangle\ 12.png");
+    // background-image: url("../../assets/images/Rectangle\ 12.png");
     height: 800px;
     h1 {
       font-size: 64px;

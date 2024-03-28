@@ -1,0 +1,104 @@
+#sizinicin {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    .girish {
+      color: #000;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: center;
+      span {
+        color: #165df5;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    h2 {
+      color: #000;
+      font-family: Poppins;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: center;
+    }
+
+    .description {
+      color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 66px;
+    }
+
+    .sizinicin__wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+
+      img {
+        position: absolute;
+        left: -140px;
+      }
+      .right {
+        margin-right: 110px;
+        .right__title {
+          color: #000;
+          font-family: Poppins;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 141%;
+          text-align: left;
+        }
+
+        .right__text {
+          color: rgba(0, 0, 0, 0.4);
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 165.401%;
+          margin-bottom: 91px;
+        }
+
+        .right__card {
+          border-left: 4px solid white;
+          padding-left: 20px;
+          h3 {
+            color: #000;
+            font-family: Poppins;
+            font-size: 24.876px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          p {
+            margin-bottom: 20px;
+          }
+
+          &:hover {
+            border-left: 4px solid blue;
+          }
+          &:active {
+            border-left: 4px solid blue;
+          }
+        }
+      }
+    }
+  }
+}

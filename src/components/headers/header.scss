@@ -1,0 +1,50 @@
+header {
+  .container {
+    background-image: url("../../assets/images/Rectangle 12.png");
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 25px 10px;
+    nav {
+      display: flex;
+      justify-content: space-between;
+      .logo__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        div {
+          width: 44px;
+          height: 44px;
+          background: blue;
+          border-radius: 50%;
+        }
+        p {
+          span {
+            color: blue;
+          }
+        }
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        li {
+          list-style-type: none;
+          cursor: pointer;
+        }
+      }
+
+      .btn__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        button {
+          padding: 11px 24px;
+          background: blue;
+          border-radius: 20px;
+          border: none;
+          color: white;
+        }
+      }
+    }
+  }
+}

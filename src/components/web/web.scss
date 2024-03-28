@@ -1,0 +1,38 @@
+#web {
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    .web__wrapper {
+      background-image: url("../../assets/images/Rectangle\ 16.png");
+      background-repeat: no-repeat;
+      height: 530px;
+      width: 1200px;
+      position: absolute;
+      top: 550px;
+      left: 160px;
+      .selam {
+        font-size: 12px;
+        text-align: center;
+        color: black;
+        margin-top: 20px;
+      }
+
+      h2 {
+        font-size: 50px;
+        margin-bottom: 22px;
+        text-align: center;
+        margin-top: 170px;
+        color: wheat;
+      }
+
+      p {
+        font-size: 18px;
+        color: white;
+        opacity: 0.6;
+        text-align: center;
+        margin-top: 22px;
+      }
+    }
+  }
+}

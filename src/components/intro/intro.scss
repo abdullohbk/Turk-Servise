@@ -1,0 +1,35 @@
+#intro {
+  padding-bottom: 50px;
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 10px;
+    background-image: url("../../assets/images/Rectangle\ 12.png");
+    height: 800px;
+    h1 {
+      font-size: 64px;
+      text-align: center;
+      span {
+        color: blue;
+      }
+    }
+    p {
+      font-size: 16px;
+      color: black;
+      opacity: 0.6;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 11px 24px;
+      background: blue;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

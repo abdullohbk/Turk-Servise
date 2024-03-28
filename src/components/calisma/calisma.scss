@@ -1,0 +1,77 @@
+#calisma {
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    .girish {
+      color: #000;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: center;
+      margin-top: 140px;
+      span {
+        color: blue;
+      }
+    }
+
+    h2 {
+      font-size: 32px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: center;
+      color: #000;
+      opacity: 0.6;
+    }
+
+    .card__wrapper {
+      margin-top: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .card {
+        width: 350px;
+        .card__img--wrapper {
+          width: 34px;
+          height: 34px;
+          background: green;
+          opacity: 0.5;
+          border-radius: 15px;
+          padding: 16px;
+          display: block;
+          margin: 0 auto;
+          .card__img {
+            width: 32px;
+            height: 32px;
+          }
+        }
+
+        h4 {
+          text-align: center;
+          font-size: 20px;
+          margin-bottom: 11px;
+        }
+      }
+
+      .card:nth-child(2) {
+        .card__img--wrapper {
+          background: blue;
+          opacity: 0.5;
+        }
+      }
+
+      .card:nth-child(3) {
+        .card__img--wrapper {
+          background: purple;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

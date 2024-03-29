@@ -45,11 +45,11 @@ function paylasma() {
             <img src={card2} alt="smthimg" />
             <a href="#">Dijital Pazarlama</a>
             <h3>
-              Sosyal CRM Nedir? Sosyal <br /> CRM Avantajları Nelerdir?
+              Dijital PR Nedir? Dijital PR <br /> Neden Gereklidir?
             </h3>
             <p>
-              Sosyal CRM, işletmelerin müşteri ilişkileri yönetimi (CRM)
-              stratejilerini sosyal...
+              Dijital PR, sosyal medya platformları ve web siteleri üzerinden
+              işletmelerin...
             </p>
 
             <button>
@@ -60,12 +60,10 @@ function paylasma() {
           <div className="card">
             <img src={card3} alt="smthimg" />
             <a href="#">Dijital Pazarlama</a>
-            <h3>
-              Sosyal CRM Nedir? Sosyal <br /> CRM Avantajları Nelerdir?
-            </h3>
+            <h3>Dijital Ajans Nedir? Doğru Dijital Ajans Nasıl Seçilir?</h3>
             <p>
-              Sosyal CRM, işletmelerin müşteri ilişkileri yönetimi (CRM)
-              stratejilerini sosyal...
+              Bir dijital ajans arama motorları, e ticaret, web sitesi tasarımı
+              gibi birçok alanda hizmet...
             </p>
 
             <button>
@@ -76,12 +74,10 @@ function paylasma() {
           <div className="card">
             <img src={card4} alt="smthimg" />
             <a href="#">Dijital Pazarlama</a>
-            <h3>
-              Sosyal CRM Nedir? Sosyal <br /> CRM Avantajları Nelerdir?
-            </h3>
+            <h3>Online İtibar Yönetimi Nedir?</h3>
             <p>
-              Sosyal CRM, işletmelerin müşteri ilişkileri yönetimi (CRM)
-              stratejilerini sosyal...
+              Online itibar yönetimi, markanızla dijital dünyada ortaya çıkan
+              algıyı profesyonel şekilde yönetmek...
             </p>
 
             <button>

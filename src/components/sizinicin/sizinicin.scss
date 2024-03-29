@@ -79,6 +79,11 @@
         .right__card {
           border-left: 4px solid white;
           padding-left: 20px;
+          transition: all 0.2s linear;
+
+          &:hover {
+            transition: all 0.2s linear;
+          }
           h3 {
             color: #000;
             font-family: Poppins;

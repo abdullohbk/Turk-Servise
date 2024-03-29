@@ -39,6 +39,13 @@
       border-radius: 20px;
       padding: 11px 25px;
       cursor: pointer;
+      transition: all 0.2s linear;
+
+      &:hover {
+        background-color: #fff;
+        color: blue;
+        transition: all 0.2s linear;
+      }
     }
   }
 }

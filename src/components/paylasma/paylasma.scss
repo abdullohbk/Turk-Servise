@@ -1,0 +1,120 @@
+#paylasma {
+  background: rgba(196, 196, 196, 0.1);
+  //         ::-webkit-scrollbar{
+  //     width: 0px;
+  // }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    .paylasma__description {
+      color: #000;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: center;
+      margin-top: 120px;
+      span {
+        color: #165df5;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    h2 {
+      color: #000;
+      font-family: Poppins;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: center;
+    }
+
+    .paylasma__text {
+      color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .buttons__wrapper {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      button {
+        padding: 10px 25px;
+        border-radius: 12px;
+        border: 0.5px solid #165df5;
+        background: rgba(22, 93, 245, 0.6);
+        border: none;
+        color: white;
+      }
+    }
+
+    .cards__wrapper {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      overflow-x: scroll;
+      padding-bottom: 70px;
+      .card {
+        width: 282.389px;
+        height: 419px;
+        flex-shrink: 0;
+        padding: 16px;
+        background-color: #fff;
+        border-radius: 8px;
+        a {
+          color: #165df5;
+          font-family: "Circular Std";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-decoration: none;
+        }
+
+        h3 {
+          color: #000;
+          font-family: "Circular Std";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+
+        p {
+          color: rgba(0, 0, 0, 0.4);
+          font-family: "Circular Std";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        button {
+          padding: 10px;
+          background-color: #fff;
+          color: blue;
+          border: none;
+          margin-left: 160px;
+        }
+      }
+    }
+  }
+}
